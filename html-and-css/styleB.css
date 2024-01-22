@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Tahoma;
+  font-size: 40px;
+  gap: 10px;
+}
+
+.item {
+  width: 110px;
+  height: 150px;
+  border-left: 10px dotted #D0D0FF;
+  background-color: #eeeff2;
+}
+
+.item>span {
+  margin-left: 10px;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: goldenrod;
+}
+
+/* .item:nth-child(odd) {
+}
+
+.item:nth-child(even) {
+} */
+
+.item:last-child {
+  align-self: flex-end;
+  margin-left: auto;
+}
