@@ -1,3 +1,5 @@
+"use strict";
+
 function Cs142TemplateProcessor(template) {
   this.template = template;
 }
